@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Complaint</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>מערכת התלונות של צה"ל</h1>
+    </header>
+    <main>
+      <form action="/submit" method="post">
+        <label for="subject">נושא התלונה</label>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder=""
+          required
+        />
+        <label for="content">תוכן התלונה</label>
+        <textarea name="content" id="content" required></textarea>
+        <input type="reset" value="אפס">
+        <input type="submit" value="שלח">
+      </form>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
 </html>
