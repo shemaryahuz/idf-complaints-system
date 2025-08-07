@@ -1,0 +1,23 @@
+{
+  "name": "idf-complaints-system",
+  "version": "1.0.0",
+  "description": "A secure Node.js + Express web app for collecting and managing IDF soldiers' complaints. Built with HTML forms, CSS styling, and a structured backend using routes, middlewares, DAL, and a database connection",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shemaryahuz/idf-complaints-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shemaryahuz/idf-complaints-system/issues"
+  },
+  "homepage": "https://github.com/shemaryahuz/idf-complaints-system#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
