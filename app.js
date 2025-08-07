@@ -1,9 +1,12 @@
 // intitial express aplication
 
 import express from "express";
+import complaintRouter from "./routes/complaints.js";
 
 const app = express();
 
+app.use(express.json());
+app.use("/submit", complaintRouter);
 
 const port = process.env.PORT || 3000;
 
