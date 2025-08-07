@@ -1,4 +1,4 @@
-import { insertComplaint } from "../dal/complaintsDAL";
+import { insertComplaint } from "../dal/complaintsDAL.js";
 
 
 export async function submitComplaint(req, res) {
