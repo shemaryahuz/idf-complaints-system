@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A secure Node.js + Express web app for collecting and managing IDF soldiers' complaints. Built with HTML forms, CSS styling, and a structured backend using routes, middlewares, DAL, and a database connection",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch --env-file=.env app.js"
   },
   "repository": {
     "type": "git",
