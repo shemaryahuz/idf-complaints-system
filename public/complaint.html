@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Complaint</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <h1>מערכת התלונות של צה"ל</h1>
     </header>
-    <main>
-      <form action="/submit" method="post">
+    <main class="main-box">
+      <form class="c-form" action="/submit" method="post">
         <label for="subject">נושא התלונה</label>
         <input
           type="text"
@@ -21,12 +22,16 @@
         />
         <label for="content">תוכן התלונה</label>
         <textarea name="content" id="content" required></textarea>
-        <input type="reset" value="אפס">
-        <input type="submit" value="שלח">
+        <input class="s-btn" type="submit" value="שלח" />
       </form>
     </main>
     <footer>
-      <nav></nav>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="./index.html">בית</a></li>
+          <li><a class="nav-link" href="#main">שליחת תלונה</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

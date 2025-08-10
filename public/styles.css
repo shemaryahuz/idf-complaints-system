@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  background-color: #41673c;
+  font-family: system-ui, sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: #2f4f2f;
+  color: #ecf39e;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #2f4f2f;
+  color: #ecf39e;
+  padding: 1rem 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.main-box {
+  background-color: #90a955;
+  border-radius: 10px;
+  margin: 20px auto 20px auto;
+  padding: 2rem;
+  overflow: auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #40613b;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ecf39e;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.main-box,
+.c-form {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-box:hover,
+.c-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.c-form input[type="text"],
+.c-form textarea {
+  margin: 10px;
+  background-color: #c3e671;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.c-form input[type="text"]:focus,
+.c-form textarea:focus {
+  background-color: #c3e671;
+  outline: none;
+}
+
+.c-form input[type="text"]:-webkit-autofill {
+  background-color: #c3e671 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #c3e671 inset;
+  -webkit-text-fill-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.s-btn {
+  background-color: #172e13;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 8px;
+  color: #ecf39e;
+  display: block; 
+  margin: 10px auto 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.s-btn:hover {
+  background-color: #1f3f1a;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+.nav-link {
+  color: #ecf39e;
+  text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color:#c3e671;
+  text-decoration: underline;
+}
